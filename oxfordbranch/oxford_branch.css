@@ -1,0 +1,175 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	background-image: url('images/leaves_back.jpg');
+	background-repeat: repeat-x;
+	background-position: 0 -60px;
+}
+#page {
+	margin-top:200px;
+}
+#page a {
+	color: #046046;
+}
+
+h2 {
+  color:#565353;
+}
+#main {
+	margin-bottom:10px;
+}
+/*Menus*/
+#main-menu {
+	margin-top: 16px;
+}
+#main-menu li {
+  padding: 0;
+  float: left;
+}
+#main-menu .menu-item {
+	background-color: #c5d0c7;
+	width: 300px;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	font-size: 26px;
+}
+#main-menu .menu-item a {
+  text-decoration: none;
+  color: #565353;
+}
+#main-menu .active .menu-item {
+  background-image: url(images/button_back.gif);
+  background-repeat: repeat-x; 
+}  
+#main-menu .active .menu-item a {
+  color: white;
+}
+#main-menu .last .menu-item {	
+  margin-right: 0;
+}	
+#site-menu {
+	margin-bottom: 10px;
+}
+
+/*Content*/
+#main-content ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+#main-content li {
+  padding: 3px 0 3px 30px;
+  background-image: url(images/leaf_bullet.gif);
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+}
+#main-content .jcarousel li {
+  padding: 0;
+  background-image: none;
+}
+#home-bottom {
+	margin-top: 10px;
+}
+#home-bottom .block-inner {
+  min-height: 310px;	
+}	
+#site-header {margin-bottom:0}	
+
+.block {
+	margin:0;
+	padding:4px;
+	background-color:#c5d0c7;
+}
+
+.block p {margin:0;}
+.block h2 {margin:0 0 2px 0}
+
+.block .block-inner {
+	background-color: white;
+	padding: 15px;
+    border: 1px solid #979797
+}
+.block .block-inner p{
+  line-height: 1.5em;
+  word-spacing: 0.1em;
+
+}	
+
+.box_back {background-color:#c5d0c7;}
+.carousel {margin:4px;background-color:white;border: 1px solid #979797}
+/*612px wide for carousel images*/
+
+.jcarousel-skin-default {
+  text-align: center;
+}
+
+.region-homepage1 .block-inner {
+  	min-height: 331px;
+}
+
+.jcarousel-container-horizontal {
+  width: 612px;
+  height: 360px;
+  margin: auto;
+  padding:0;
+}
+
+.jcarousel-clip-horizontal {
+  width: 610px;
+  overflow: hidden;
+}
+
+
+.jcarousel-item-placeholder {
+  background: #fff url(throbber.gif) no-repeat center center;
+  color: #000;
+}
+
+.jcarousel-item {
+  padding: 0;
+  width: 612px;
+  height: 360px;
+  overflow: hidden;
+
+  list-style: none;
+  background: #fff none;
+  position: relative;
+
+}
+
+/*Footer*/
+#footer #copyright {
+	position: absolute;
+	top: 22px;
+	right: 12px;
+}
+#footer .block .block-inner {
+	padding: 2px;
+	background-image: url('images/footer_logos.gif');
+	background-repeat: no-repeat;
+	background-position: 4px 8px;
+	height: 52px;
+}
+#footer .block .content ul {
+	list-style: none;
+  position:relative;
+	top: -6px;
+	left: 210px;
+}
+#footer .block .content ul li {
+  float: left;
+}
+
+/*Blocks*/
+#block-block-3 em {
+	
+		font-size: 17px;
+		line-height: 23px;
+		color: #565353;
+}
+
+#block-oxfordbranch-get-a-quote .form-item {
+	margin: 0.3em 0;
+}
+

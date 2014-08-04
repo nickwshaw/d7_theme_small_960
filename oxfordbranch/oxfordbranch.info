@@ -1,0 +1,21 @@
+name = Oxford Branch
+description = Theme for the Oxford Branch website. Extends ninesixty theme.
+version = 1.0
+core = 7.x
+base theme = ninesixty
+
+regions[homepage1] = Homepage region 1
+regions[homepage_bottom_left] = Homepage bottom left
+regions[homepage_bottom_middle] = Homepage bottom middle
+regions[homepage_bottom_right] = Homepage bottom right
+
+
+regions[search_box] = Search Box
+regions[footer] = Footer
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[content] = Main page content 
+
+
+
+stylesheets[all][] = oxford_branch.css
